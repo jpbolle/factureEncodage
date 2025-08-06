@@ -5,9 +5,7 @@ import './index.css';
 const HugoRomantisme = () => {
   // [Ton code React identique]
 
-import React, { useState } from 'react';
 
-const HugoRomantisme = () => {
   const [activePopup, setActivePopup] = useState(null);
 
   // Définitions des mots clés
