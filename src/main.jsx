@@ -3,9 +3,6 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 
 const HugoRomantisme = () => {
-  // [Ton code React identique]
-
-
   const [activePopup, setActivePopup] = useState(null);
 
   // Définitions des mots clés
@@ -124,12 +121,6 @@ const HugoRomantisme = () => {
       {activePopup && <Popup definitionKey={activePopup} />}
     </div>
   );
-};
-
-export default HugoRomantisme;
-
-
-  
 };
 
 // Rendu de l'app
